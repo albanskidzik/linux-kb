@@ -1,4 +1,7 @@
 
+link: https://github.com/manilarome/A-Personal-Arch-Installation-Guide
+
+
 * Keyboard layout
 
 ls /usr/share/kbd/keymaps/**/*.map.gz
@@ -33,6 +36,13 @@ mkswap /dev/nvme0n1p2
 swapon /dev/nvme0n1p2
 
 mount /mnt /dev/nvme0n1p3
+
+
+
+pacstrap /mnt base linux linux-firmware
+
+
+
 
 
 
